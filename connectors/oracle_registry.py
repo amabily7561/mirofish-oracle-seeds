@@ -1,0 +1,51 @@
+"""FeedOracle Oracle Registry — 44 Servers, 484 Tools"""
+ORACLES = {
+    "feedoracle_core": {"name": "FeedOracle Core", "url": "https://mcp.feedoracle.io/mcp", "tools": 33, "category": "compliance"},
+    "ampel": {"name": "DORA AmpelOracle", "url": "https://feedoracle.io/ampel/mcp/", "tools": 24, "category": "compliance"},
+    "mica": {"name": "MiCA Oracle", "url": "https://feedoracle.io/mica-ampel/mcp/", "tools": 20, "category": "compliance"},
+    "dora": {"name": "DORA Oracle", "url": "https://tooloracle.io/dora/mcp/", "tools": 15, "category": "compliance"},
+    "aml": {"name": "AML Oracle", "url": "https://tooloracle.io/aml/mcp/", "tools": 12, "category": "compliance"},
+    "insurance": {"name": "Insurance Oracle", "url": "https://tooloracle.io/insurance/mcp/", "tools": 12, "category": "compliance"},
+    "incident": {"name": "Incident Oracle", "url": "https://tooloracle.io/incident/mcp/", "tools": 12, "category": "compliance"},
+    "crypto2": {"name": "Crypto Compliance", "url": "https://tooloracle.io/crypto2/mcp/", "tools": 10, "category": "compliance"},
+    "contract": {"name": "Contract Oracle", "url": "https://tooloracle.io/contract/mcp/", "tools": 10, "category": "compliance"},
+    "register": {"name": "Register Oracle", "url": "https://tooloracle.io/register/mcp/", "tools": 10, "category": "compliance"},
+    "policy": {"name": "Policy Oracle", "url": "https://tooloracle.io/policy/mcp/", "tools": 10, "category": "compliance"},
+    "access": {"name": "Access Oracle", "url": "https://tooloracle.io/access/mcp/", "tools": 10, "category": "compliance"},
+    "governance": {"name": "Governance Oracle", "url": "https://tooloracle.io/governance/mcp/", "tools": 10, "category": "compliance"},
+    "change": {"name": "Change Oracle", "url": "https://tooloracle.io/change/mcp/", "tools": 10, "category": "compliance"},
+    "resilience": {"name": "Resilience Oracle", "url": "https://tooloracle.io/resilience/mcp/", "tools": 10, "category": "compliance"},
+    "dependency": {"name": "Dependency Oracle", "url": "https://tooloracle.io/dependency/mcp/", "tools": 10, "category": "compliance"},
+    "tlpt": {"name": "TLPT Oracle", "url": "https://tooloracle.io/tlpt/mcp/", "tools": 10, "category": "compliance"},
+    "sharing": {"name": "Sharing Oracle", "url": "https://tooloracle.io/sharing/mcp/", "tools": 8, "category": "compliance"},
+    "training": {"name": "Training Oracle", "url": "https://tooloracle.io/training/mcp/", "tools": 8, "category": "compliance"},
+    "crypto": {"name": "Crypto Oracle", "url": "https://tooloracle.io/crypto/mcp/", "tools": 12, "category": "finance"},
+    "macro": {"name": "Macro Oracle", "url": "https://tooloracle.io/macro/mcp/", "tools": 8, "category": "finance"},
+    "yield_oracle": {"name": "Yield Oracle", "url": "https://tooloracle.io/yield/mcp/", "tools": 8, "category": "finance"},
+    "smartmoney": {"name": "SmartMoney", "url": "https://tooloracle.io/smart/mcp/", "tools": 8, "category": "finance"},
+    "price": {"name": "Price Oracle", "url": "https://tooloracle.io/price/mcp/", "tools": 7, "category": "finance"},
+    "invoice": {"name": "Invoice Oracle", "url": "https://tooloracle.io/invoice/mcp/", "tools": 10, "category": "finance"},
+    "carbon": {"name": "Carbon Oracle", "url": "https://tooloracle.io/carbon/mcp/", "tools": 11, "category": "esg"},
+    "ecommerce": {"name": "Ecommerce", "url": "https://tooloracle.io/ecommerce/mcp/", "tools": 8, "category": "finance"},
+    "news": {"name": "News Oracle", "url": "https://tooloracle.io/news/mcp/", "tools": 9, "category": "intelligence"},
+    "news2": {"name": "News Oracle 2", "url": "https://tooloracle.io/news2/mcp/", "tools": 8, "category": "intelligence"},
+    "rank": {"name": "Rank Oracle", "url": "https://tooloracle.io/rank/mcp/", "tools": 13, "category": "intelligence"},
+    "lead": {"name": "Lead Oracle", "url": "https://tooloracle.io/lead/mcp/", "tools": 7, "category": "intelligence"},
+    "seo": {"name": "SEO Oracle", "url": "https://tooloracle.io/seo2/mcp/", "tools": 7, "category": "intelligence"},
+    "review": {"name": "Review Oracle", "url": "https://tooloracle.io/review/mcp/", "tools": 8, "category": "intelligence"},
+    "meme": {"name": "Meme Oracle", "url": "https://tooloracle.io/meme/mcp/", "tools": 9, "category": "intelligence"},
+    "shop": {"name": "Shop Oracle", "url": "https://tooloracle.io/shop/mcp/", "tools": 11, "category": "intelligence"},
+    "weather": {"name": "Weather Oracle", "url": "https://tooloracle.io/weather/mcp/", "tools": 10, "category": "consumer"},
+    "sport": {"name": "Sport Oracle", "url": "https://tooloracle.io/sport/mcp/", "tools": 12, "category": "consumer"},
+    "movie": {"name": "Movie Oracle", "url": "https://tooloracle.io/movie/mcp/", "tools": 12, "category": "consumer"},
+    "map": {"name": "Map Oracle", "url": "https://tooloracle.io/map/mcp/", "tools": 12, "category": "consumer"},
+    "job": {"name": "Job Oracle", "url": "https://tooloracle.io/job/mcp/", "tools": 8, "category": "consumer"},
+    "hotel": {"name": "Hotel Oracle", "url": "https://tooloracle.io/hotel/mcp/", "tools": 8, "category": "consumer"},
+    "flight": {"name": "Flight Oracle", "url": "https://tooloracle.io/flight/mcp/", "tools": 8, "category": "consumer"},
+}
+
+def get_total_tools():
+    return sum(o.get("tools", 0) for o in ORACLES.values())
+
+if __name__ == "__main__":
+    print(f"Oracles: {len(ORACLES)} | Tools: {get_total_tools()}")
